@@ -61,7 +61,7 @@ window.onload = ()=>{
         endGameContainer.appendChild(document.createElement("p")).innerText = "STOP!";
         endGameContainer.appendChild(document.createElement("p")).innerText = "Total score: " + document.getElementById("points-counter").innerText;
         playAgain = endGameContainer.appendChild(document.createElement("a"));
-        playAgain.href = "http://127.0.0.1:5500/index.html";
+        playAgain.href = "https://domingoacd.github.io/FizzBuzzGame/";
         playAgain.innerText = "Play Again";
         playAgain.classList = "end-message-links";
         goToPortfolio = endGameContainer.appendChild(document.createElement("a"));
