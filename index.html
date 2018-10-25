@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>FizzBuzz Game</title>
+</head>
+<body>
+    <h1 class="main-title">FizzBuzz</h1>
+    <div class="container">
+        <span class="time" id="time"></span>
+        <button class="rules-button" id="rules-button">Rules</button>
+        <div class="center">
+            <p id="number" class="number">0</p>
+            <button id="play-button" class="play-button">Play</button>
+            <form action="" class="get-user-number">
+                <input type="text" id="input-answer"/>
+                <button id="send-answer"><i class="fas fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="rules-tab" id="rules-tab">
+        <ul>
+            <li>There is going to appear a random number, between 0 and 100, on screen.</li>
+            <li>You have to write the next number, but following some rules:
+                <ul>
+                    <li>If that number is divisible by 3, you have to write <em>fizz</em></li>
+                    <li>If the number is divisible by 5, then you write <em>buzz</em></li>
+                    <li>If the number is divisible by 5 AND by 3, then you have to write <em>fizzbuzz</em></li>
+                    <li>For the rest, you just type the number</li>
+                </ul>
+            </li>
+            <li>The game ends when you run out of time to write your answer (5 seconds)</li>
+        </ul>
+    </div>
+    <footer class="foot">
+        <p class="points" id="points">Points: <span id="points-counter">0</span></p>
+        <p>Made by Domingo Cabeza</p>
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>
