@@ -1,2 +1,2 @@
 # FizzBuzzGame
-Play FizzBuzz!
+Play FizzBuzz at https://domingoacd.github.io/FizzBuzzGame/!
