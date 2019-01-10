@@ -16,7 +16,7 @@ window.onload = ()=>{
         displayNumber.innerText = Math.round(Math.random() * 100);
         temp();
     }
-    function checkAnswer(){
+    function checkAnswer(event){
         event.preventDefault();
         let answer = (userAnswer.value).toLowerCase(), 
             number = Number(displayNumber.innerText);
